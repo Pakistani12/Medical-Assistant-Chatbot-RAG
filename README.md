@@ -45,3 +45,24 @@ medical-chatbot/
 │── .env                     # Environment variables 
 │── README.md                # Documentation
 ```
+## **Key Components**
+
+- get_vectorstore(): Loads the FAISS vector database with embeddings.
+
+- set_custom_prompt(): Defines a structured prompt template.
+
+- load_llm(): Loads the Hugging Face model with a specified API token.
+
+- main(): Runs the Streamlit chatbot interface.
+
+## **Troubleshooting**
+
+- FAISS vector store not found? Ensure the vector database is generated and placed in vectorstore/db_faiss.
+
+- Invalid Hugging Face token? Verify that your .env file contains the correct API key.
+
+- Model not responding? Check for typos in the Hugging Face repo ID and API token.
+
+## **License**
+
+This project is licensed under the MIT License.
