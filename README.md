@@ -23,7 +23,7 @@ pip install -r requirements.txt
 
 Create a .env file in the project root and add your Hugging Face API token:
 ```sh
-HF_TOKEN=your_huggingface_api_key
+HF_TOKEN=""
 ```
 3-Run the Streamlit app:
 ```sh
