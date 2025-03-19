@@ -16,7 +16,7 @@ This is a Streamlit-based Medical Assistant Chatbot that leverages FAISS for vec
 1-Create a virtual environment and install dependencies:
 ```sh
 python -m venv venv
-source venv/bin/activate  
+venv/Scripts/activate  
 pip install -r requirements.txt
 ```
 2-Set up environment variables:
